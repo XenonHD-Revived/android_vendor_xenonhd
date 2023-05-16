@@ -4,7 +4,7 @@ OTA_TYPE=Unofficial
 endif
 
 # XenonHD version
-XENONHD_VERSION := XenonHD-$(shell date +"%y%m%d")-$(OTA_TYPE)
+XENONHD_VERSION := XenonHD-rev-$(shell date +"%y%m%d")-$(OTA_TYPE)
 DEVICE := $(subst xenonhd_,,$(TARGET_PRODUCT))
 
 # Build.prop overrides
